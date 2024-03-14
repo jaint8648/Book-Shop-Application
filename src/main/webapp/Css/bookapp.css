@@ -1,0 +1,103 @@
+@charset "UTF-8";
+.bac{
+    background-color:whitesmoke;
+    
+   
+}
+.widthi{
+    height: 20px;
+}
+.tush{
+    color: white;
+}
+.sec1{
+    background-color: whitesmoke;
+}
+.span1{
+    color: red;
+}
+.cata{
+   margin-left: 40%;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    color: darkblue;
+    text-decoration: overline;
+    margin-bottom: 2%;
+}
+.shad{
+    box-shadow: 0px 0px 13px 5px rgba(0,0,0,1);
+-webkit-box-shadow: 0px 0px 13px 5px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 13px 5px rgba(0,0,0,1);
+}
+.background{
+    background-color: darkblue;
+    height: 50px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+.foot{
+    padding-top: 15px;
+    float: right;
+}
+.head2{
+    margin-left: 33%;
+    margin-top: 5%;
+}
+table{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.widthi2{
+    width: 100%;
+    height: 35px;
+}
+.tab3{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 40px;
+    width: 40%;
+    margin-left: 5%;
+    background-color: red;
+    cursor: pointer;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+}
+.btn2:hover{
+    height: 40px;
+    width: 40%;
+    margin-left: 5%;
+    background-color:green;
+    cursor: pointer;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+}
+.btn3{
+    height: 40px;
+    width: 40%;
+    margin-left: 5%;
+    background-color:blue;
+    cursor: pointer;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+margin-left: 5%;
+}
+.btn3:hover{
+    height: 40px;
+    width: 40%;
+    margin-left: 5%;
+    background-color:black;
+    cursor: pointer;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+  float: right;
+}
+.alink{
+    text-decoration: none;
+    color: black;
+}

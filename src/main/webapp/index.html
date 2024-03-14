@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to Book World</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="Css/bookapp.css">
+        <link rel="icon" type="image/x-icon" href="Gallery/book.png">
+</head>
+<body>
+ <section class="tab1">
+        <nav class="navbar navbar-expand-lg navbar-light bac">
+        <div class="container-fluid">
+          <img src="Gallery/book.png" alt="" srcset="" class="widthi">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"aria-current="page" href="#cat1">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"aria-current="page" href='booklist'>Book List</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+            <button class="btn btn-outline-dark">
+            <a href="#regis2" class="alink">Book</a>
+            </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+<section>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="Gallery/book1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Gallery/book4.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Gallery/book5.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+    <section class="sec1">
+        <br>
+        <br>
+    <div class="container" id="cat1">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cata">Catalog</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shad " style="width: 18rem;">
+                    <img src="Gallery/java1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Java Programming</h5>
+                      <p class="card-text">Java is a popular programming language, created in 1995. It is owned by Oracle, and more than 3 billion devices run Java</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Price <span class="span1">Rs 1800/-</span></li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#regis2" class="card-link">Buy Book</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shad " style="width: 18rem;">
+                    <img src="Gallery/c.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">C++ Programming</h5>
+                      <p class="card-text">C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Price <span class="span1">Rs 2400/-</span></li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#regis2" class="card-link">Buy Book</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shad " style="width: 18rem;">
+                    <img src="Gallery/python.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Python Programming</h5>
+                      <p class="card-text">Python is a high-level, interpreted, and general-purpose dynamic programming language that focuses on code readability..</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Price <span class="span1">Rs 2800/-</span></li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#regis2" class="card-link">Buy Book</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+</section>
+ <form action="register" method="post">
+<section class="tab3">
+   
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="head2">
+                        <h1 id="regis2">Book Registration</h1>
+                    </div>
+                    <table border="0" width="100%">
+                        <tr>
+                            <td>
+                                <div>
+                                <label for="">Book Name</label>
+                                <br>
+                                <input type="text" name="bookname" id="" class="widthi2">
+                                </div>
+                                <div>
+                                    <label for="">Book Edition</label>
+                                    <br>
+                                    <input type="text" name="bookedition" id="" class="widthi2">
+                                </div>
+                                    <div>
+                                        <label for="">Book Price</label>
+                                        <br>
+                                        <input type="text" name="bookprice" id="" class="widthi2">
+                                    </div>
+                                 <div>
+                                    <br>
+                                   
+                                        <input type="submit" value="Register" class="btn2">
+                                        <input type="reset" value="Cancel" class="btn3">
+                                 
+                                 </div>         
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+
+                </div>
+            </div>
+        </div>
+   
+</section>
+ </form>
+<section class="background">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="foot">
+                Designed By Tushar Jain
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</body>
+</html>
