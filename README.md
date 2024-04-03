@@ -35,3 +35,13 @@ Deployed on the Apache Tomcat server, the application embodies efficiency, relia
 - Edit book details: Click on the edit button next to the book and update the information.
 - View all books: Access the all books page to see a complete list of available books.
 
+## Contributing:
+
+Contributions are welcome! If you find any bugs or have suggestions for improvement, please submit an issue or create a pull request.
+
+## Contact:
+
+For any inquiries or support, please contact jaint8648@gmail.com.
+
+Thank you for using the Book Shop Application! We hope you enjoy using it.
+
